@@ -1,7 +1,18 @@
 /* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
 
 /* General Custom CSS */
+div.grid-entry.post-entry .inner-entry .grid-content {
+	max-height:70px;
+}
 
+div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header h3.entry-title{
+	text-overflow: ellipsis;
+	text-align: center;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
 
 
 
