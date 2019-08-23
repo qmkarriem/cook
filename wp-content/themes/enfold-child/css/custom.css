@@ -1,20 +1,45 @@
 /* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
 
 /* General Custom CSS */
+
+/* Portfolio (Project & Publication) Browser */
+.grid-sort-container .grid-entry{
+	padding: 5px;
+}
+
 div.grid-entry.post-entry .inner-entry .grid-content {
 	max-height:70px;
+	min-height:70px;
+	background-color: #007EA7;
+	padding: 15px;
 }
 
 div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header h3.entry-title{
-	text-overflow: ellipsis;
-	text-align: center;
 	overflow: hidden;
 	display: -webkit-box;
-	-webkit-line-clamp: 2;
+	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
+	background-color: #007EA7;
+	color: white;
+	text-overflow: ellipsis;
+	text-align: center;
+	vertical-align: middle;
 }
 
+div.grid-entry.post-entry .inner-entry .grid-content .avia-arrow{
+	display: none;
+}
 
+div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header h3.entry-title a {
+	display: block;
+	font-size:0.45em;
+	line-height: 1.3em;
+	vertical-align:middle;
+}
+
+div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header h3.entry-title title {
+	color:white;
+}
 
 /*
 Desktop Styles
