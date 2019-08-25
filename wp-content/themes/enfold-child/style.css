@@ -23,7 +23,7 @@
 */
 /* Portfolio (Project & Publication) Browser */
 .grid-sort-container .grid-entry{
-	padding: 5px;
+	padding: 15px;
 }
 
 
@@ -59,4 +59,10 @@ div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header
 
 div.grid-entry.post-entry .inner-entry .grid-content header.entry-content-header h3.entry-title title {
 	color:white;
+}
+
+/*Page Title*/
+
+#top .alternate_color.title_container .main-title a {
+    color: #001A57;
 }

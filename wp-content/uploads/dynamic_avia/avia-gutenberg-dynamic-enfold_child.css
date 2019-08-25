@@ -2,13 +2,13 @@
 
 
 .editor-block-list__block,
-.editor-block-list__block p {background-color:#ffffff; color:#000000; font-size:16px;}
+.editor-block-list__block p {background-color:#ffffff; color:#555555; font-size:16px;}
 .editor-block-list__block h1,
 .editor-block-list__block h2,
 .editor-block-list__block h3,
 .editor-block-list__block h4,
 .editor-block-list__block h5,
-.editor-block-list__block h6 {color:#000000;}
+.editor-block-list__block h6 {color:#001a57;}
 .editor-post-title__block textarea {color:#000000; background-color:#ffffff;}
 .editor-block-list__block a,
 .editor-block-list__block strong,
@@ -16,5 +16,5 @@
 .editor-block-list__block b a,
 .editor-block-list__block strong a {color:#007da7;}
 .editor-block-list__block .wp-block-heading,
-.editor-post-title__block textarea {font-family:'arimo', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}
-.editor-block-list__block {font-family:'arimo', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}
+.editor-post-title__block textarea {font-family:'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}
+.editor-block-list__block {font-family:'montserrat', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;}
