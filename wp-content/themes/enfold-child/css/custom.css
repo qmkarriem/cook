@@ -2,6 +2,20 @@
 
 /* General Custom CSS */
 
+/* About and People Pages */
+
+.flex_cell {
+  padding: 0px;
+}
+
+.av-image-hotspot_inner {
+  display: none;
+}
+
+.av-image-hotspot_pulse {
+  display: none;
+}
+
 
 
 
