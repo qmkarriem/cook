@@ -2,6 +2,20 @@
 
 /* General Custom CSS */
 
+/* About and People Pages */
+
+.page-id-3274 div.flex_cell {
+  padding: 0px;
+}
+
+div.av-image-hotspot_inner {
+  display: none;
+}
+
+div.av-image-hotspot_pulse {
+  display: none;
+}
+
 /* Portfolio (Project & Publication) Browser */
 .grid-sort-container .grid-entry{
 	padding: 15px;

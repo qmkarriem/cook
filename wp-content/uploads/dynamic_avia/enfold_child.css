@@ -68,6 +68,125 @@ body.montserrat {font-family:'montserrat', 'HelveticaNeue', 'Helvetica Neue', 'H
 #mc_embed_signup form { padding: 15px 0 0 0 !important }
 
 #top label { font-weight: normal }
+
+/* NEW STYLES 8/24 */
+
+/* SINGLE POST/NEWS PREV/NEXT NAV */
+.avia-post-prev .entry-info {
+    margin: 0 1px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+
+.avia-post-nav .entry-image img {
+    border-radius: 0;
+    display: block;
+    padding-left: 10px;
+}
+
+/* SINGLE NEWS/POST PAGE GENERAL */
+
+/* REMOVE BORDER */
+.single-post .main_color, 
+.single-post main,
+.single-post .sidebar {
+    border: 0 !important;
+}
+
+/* ADD SPACE B/T TITLE AND BREADCRUMBS */
+.single-post .main-title.entry-title  {
+    margin-top: 30px;
+}
+
+/* RECENT NEWS WIDGET */
+
+.single-post .widget_recent_entries {
+   background: #ebebeb;
+   padding: 40px 20px !important;
+}
+
+.single-post .widget_recent_entries h3.widgettitle {
+    text-transform: uppercase !important;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    letter-spacing: 0.03em !important;
+}
+
+/* REMOVE PADDING BETWEEN MAIN & SIDEBAR */
+.single-post .content .entry-content-wrapper {
+    padding-right: 0;
+}
+
+
+/* GENERAL PAGES */
+
+/* REMOVE ALL BORDERS */
+
+.main_color,
+main {
+    border: 0;
+}
+
+.breadcrumb {
+   padding-top: 30px !important;
+}
+
+
+/* COOK CTR NEWS PAGE and NEWS WIDGET ON HOME PAGE */
+
+/* design cards*/
+
+
+#top.page-id-206 #wrap_all .main_color h3.slide-entry-title,
+#top.page-id-600 #wrap_all .main_color h3.slide-entry-title {
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+margin-bottom: 0;
+}
+
+#top.page-id-206 #wrap_all .main_color .slide-entry.flex_column,
+#top.page-id-600 #wrap_all .main_color .slide-entry.flex_column {
+   background: #ebebeb;
+   padding: 30px;
+}
+
+
+#top.page-id-206 #wrap_all .main_color .blog-categories.minor-meta,
+#top.page-id-600 #wrap_all .main_color .blog-categories.minor-meta {
+   display: none;
+}
+
+#top.page-id-206 #wrap_all .main_color .read-more-link a,
+#top.page-id-600 #wrap_all .main_color .read-more-link a {
+    background: #001b56;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    width: auto;
+margin: 0;
+}
+
+
+/* HOME PAGE EVENTS */
+
+.av-upcoming-events {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+justify-content: space-between;
+}
+
+.av-upcoming-events a.av-upcoming-event-entry {
+    width: 48%;
+}
+
+.av-upcoming-events .tribe-event-date-start, 
+.av-upcoming-events .tribe-event-time {
+   //text-transform: uppercase;
+   //font-weight: bold;
+}
 .container {width:100%;} .container .av-content-small.units {width:73%; }
 			
 			  .responsive .boxed#top , .responsive.html_boxed.html_header_sticky #header, 
