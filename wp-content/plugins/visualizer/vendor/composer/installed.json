@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-            "reference": "7ead6c057d783ea6c827d5b5de52a25c0e72de58"
+            "reference": "a286316f5dd93cc91bbc5faeb09fff8f3977676b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/7ead6c057d783ea6c827d5b5de52a25c0e72de58",
-            "reference": "7ead6c057d783ea6c827d5b5de52a25c0e72de58",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/a286316f5dd93cc91bbc5faeb09fff8f3977676b",
+            "reference": "a286316f5dd93cc91bbc5faeb09fff8f3977676b",
             "shasum": ""
         },
         "require-dev": {
@@ -19,7 +19,7 @@
             "squizlabs/php_codesniffer": "^3.1",
             "wp-coding-standards/wpcs": "^1.0.0"
         },
-        "time": "2019-03-07 15:42:52",
+        "time": "2019-08-12 11:34:12",
         "type": "library",
         "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
@@ -293,17 +293,17 @@
     },
     {
         "name": "phpoffice/phpspreadsheet",
-        "version": "1.6.0",
-        "version_normalized": "1.6.0.0",
+        "version": "1.8.2",
+        "version_normalized": "1.8.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-            "reference": "bf00f0cc5f55c354018f9a9ef15e6e3e1a229051"
+            "reference": "0c1346a1956347590b7db09533966307d20cb7cc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/bf00f0cc5f55c354018f9a9ef15e6e3e1a229051",
-            "reference": "bf00f0cc5f55c354018f9a9ef15e6e3e1a229051",
+            "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/0c1346a1956347590b7db09533966307d20cb7cc",
+            "reference": "0c1346a1956347590b7db09533966307d20cb7cc",
             "shasum": ""
         },
         "require": {
@@ -342,7 +342,7 @@
             "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
             "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer"
         },
-        "time": "2019-01-02 04:42:54",
+        "time": "2019-07-08 21:21:25",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
